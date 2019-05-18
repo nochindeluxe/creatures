@@ -2,7 +2,7 @@ package ncd.creatures;
 
 import processing.core.*;
 
-public class Creature implements CreatureInterface {
+public class Creature {
 
     public PApplet p;
     public PVector location;
@@ -34,6 +34,6 @@ public class Creature implements CreatureInterface {
         }
     }
     
-    @Override public void update() {}
-    @Override public void draw() {}
+    public void update() {}
+    public void draw() {}
 }
