@@ -21,7 +21,7 @@ public class Creature {
     public void run() {
         update();
         checkEdges();
-        draw();
+        display();
     }
     
     public void checkEdges() {
@@ -35,5 +35,5 @@ public class Creature {
     }
     
     public void update() {}
-    public void draw() {}
+    public void display() {}
 }
